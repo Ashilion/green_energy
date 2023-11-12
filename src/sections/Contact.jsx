@@ -6,7 +6,7 @@ import { InstagramLogoIcon , TwitterLogoIcon, GitHubLogoIcon, FigmaLogoIcon} fro
 
 const Contact = () => {
   return (
-    <section className='flex w-full'>
+    <section className='flex w-full max-lg:flex-col'>
       <div className=' bg-card-background flex-1 m-10 rounded-3xl p-12 min-h-[400px]'>
         <div className='flex flex-col justify-between h-full'>
           <div>

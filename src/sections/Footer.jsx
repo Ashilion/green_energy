@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section className='bg-slate-100 flex justify-end w-full gap-40 px-20 py-5'>
+    <section className='bg-slate-100 flex justify-end w-full gap-40 px-20 py-5 max-lg:flex-col max-lg:gap-10 max-lg:items-center'>
       <div className='flex flex-col'>
         <h3 className='font-medium text-md'>Quick Links</h3>
         <a className='text-sm'>Home </a>

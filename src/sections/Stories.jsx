@@ -5,9 +5,9 @@ import ImageCard from '../components/ImageCard'
 const Stories = () => {
   return (
     <section className='flex flex-col w-full p-20'>
-      <div className='flex justify-between w-full'>
-        <h2 className='text-6xl font-palanquin max-w-[500px]'>Our Stories Speak to the Effectiveness of our Services</h2>
-        <p className='text-xl max-w-[400px]'>Have questions or need more information? We're here to help. Contact us today to discuss your green energy needs.</p>
+      <div className='flex justify-between w-full max-lg:flex-col'>
+        <h2 className='text-6xl font-palanquin max-w-[500px] max-lg:text-4xl'>Our Stories Speak to the Effectiveness of our Services</h2>
+        <p className='text-xl max-w-[400px] max-lg:mt-10'>Have questions or need more information? We're here to help. Contact us today to discuss your green energy needs.</p>
       </div>
       <div className='mt-10'>
         <Button variant="secondary" size="lg">BOOK A FREE CONSULTATION</Button>
@@ -21,12 +21,12 @@ const Stories = () => {
       </div>
 
       <div className='mt-20 w-full flex justify-center'>
-        <h1 className='text-6xl  text-center'>Knowledge is Power 
+        <h1 className='text-6xl  text-center max-lg:text-4xl '>Knowledge is Power 
           <br />
           Especially when it's Green
         </h1>
       </div>
-      <div className='flex w-full mt-20 gap-10'>
+      <div className='flex w-full mt-20 gap-10 max-lg:flex-col'>
         <div className=' flex flex-col flex-1 min-h-[400px]  rounded-3xl'>
           <h3 className='text-lg font-medium'>The Benefits of Solar Energy</h3>
           <p className='text-md my-4'>Discover how solar energy works, its incredible benefits...</p>

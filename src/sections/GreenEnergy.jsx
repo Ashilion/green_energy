@@ -11,7 +11,7 @@ const GreenEnergy = () => {
         <p className=' font-montserrat max-w-sm'>At Clean Energy Solutions, we are passionate about the environment and commited to providing sustainable energy solutions for a better tomorrow</p>
       </div>
       <div className='flex-1 flex-col p-10'>
-        <h1 className='flex-1 text-6xl'>We Strive to Lead the Way in the Green Energy Industry</h1>
+        <h1 className='flex-1 text-6xl max-lg:text-4xl'>We Strive to Lead the Way in the Green Energy Industry</h1>
         <div className='flex flex-1 mt-8 gap-10 items-center'>
           <Button variant="secondary" size="lg" >GET IN TOUCH</Button>
           <a className='flex gap-4 cursor-pointer'> SEE OUR SERVICES  <img width={16}src={arrowRight}/></a>
@@ -27,19 +27,19 @@ const GreenEnergy = () => {
         </div>
         <div className='flex-1'></div>
       </div>
-      <div className='grid grid-cols-4  gap-5 p-10'>
+      <div className='grid grid-cols-4 max-lg:grid-cols-1 gap-5 p-10'>
         <ImageCard />
         <div className='bg-[#e3c1fd] rounded-3xl col-span-2 p-10'>
-          <h2 className='text-6xl font-palanquin  '>Explore Our Portfolio of Succesful Green Energy Projects</h2>
-          <p className='text-xl mt-16'>Showcasing our dedication to sustainability and the positive impact we've had on local communities. See how we've made a difference.</p>
+          <h2 className='text-6xl font-palanquin  max-lg:text-4xl'>Explore Our Portfolio of Succesful Green Energy Projects</h2>
+          <p className='text-xl mt-16 max-lg:text-lg'>Showcasing our dedication to sustainability and the positive impact we've had on local communities. See how we've made a difference.</p>
         </div>
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
+        <ImageCard min-height="30vh"/>
+        <ImageCard min-height="30vh"/>
+        <ImageCard min-height="30vh"/>
         <div className= 'rounded-3xl col-span-2 bg-card-background p-20'>
           <h3 className='text-3xl text-montserrat '>Over The Last <br/>Decade</h3>
           <div className='flex mt-10 items-center'>
-            <p className='flex-1 text-8xl font-bold text-palanquin'>50 %</p>
+            <p className='flex-1 text-8xl font-bold text-palanquin max-lg:text-5xl'>50 %</p>
             <p className='flex-1 text-lg text-montserrat mr-5 '>Renewable energy capacity has grown</p>
           </div>
           <a className='flex gap-4 cursor-pointer mt-10 '> SEE STATISTICS <img width={16}src={arrowRight}/></a>

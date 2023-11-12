@@ -35,7 +35,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' />
         </div>
 
-        <ul className='mt-3 flex flex-1 justify-end items-center max-lg:flex-col gap-7 '>
+        <ul className='mt-3 flex flex-1 justify-end items-center max-lg:hidden gap-7 '>
           {data.map((item)=>(
             <li className='font-montserrat leading-normal text-lg text-slate-gray'>
               <a href={item.lien}>
